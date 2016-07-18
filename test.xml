@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<users>
+	<user nickname="elbodykso">
+		<bonecount amount="10"></bonecount>
+		<blitz_power amount="9000">ahaha</blitz_power>
+	</user>
+
+	<user nickname="avantgardian">
+		<bonecount amount="109"></bonecount>
+		<blitz_power amount="90"></blitz_power>
+	</user>
+</users>
