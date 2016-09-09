@@ -31,7 +31,6 @@ def get_sender(msg):
             result += char
     return result
 
-
 def get_message(msg):
     result = ""
     i = 3
@@ -42,35 +41,16 @@ def get_message(msg):
     result = result.lstrip(':')
     return result
 
-
-
-
-
-
-
-
-
-
 def parse_message(msg):
     if len(msg) >= 1:
         msg = msg.split(' ')
-        options = {'!deatome': dig.chill_command,
+        options = {'!deatome': dig.dig,
                    '!pyramid': dig.pyramid,
-                   '!pureshit': dig.xml_whatever,
                    '!avantisthebest': dig.pyramid2,
                    '!goranisthebest': dig.pyramid3,
                    '!dig': dig.dig}
         if msg[0] in options:
             options[msg[0]]()
-
-
-
-
-
-
-
-
-
 
 
 con = socket.socket()
