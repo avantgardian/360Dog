@@ -6,7 +6,7 @@ This is a python-based template for a Twitch.tv chat bot. This is my main way of
 
 ### How do I get set up? ###
 
-* No setup needed, as long as you have Python 3 installed in your system
+* You need Python3 and Orator ActiveRecord Library installed
 * Add your channel and authkey to `cfg.py` 
 * Run `bot.py` in the console to initiate the bot
 
