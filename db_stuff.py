@@ -6,7 +6,7 @@ config = {
         'host': 'localhost',
         'database': 'dog',
         'user': 'root',
-        'password': '',
+        'password': 'tomymemory',
         'prefix': ''
     }
 }
